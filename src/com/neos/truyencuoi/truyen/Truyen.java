@@ -1,4 +1,4 @@
-package com.neos.truyencuoi;
+package com.neos.truyencuoi.truyen;
 
 public class Truyen {
     private String id, ten, tacGia, nxb, noiDung;
@@ -33,7 +33,7 @@ public class Truyen {
 
     @Override
     public String toString() {
-        return "Id:" + id
+        return "\nThông tin truyện:\nId:" + id
                 + "\nTên: " + ten
                 + "\nTác giả: " + tacGia
                 + "\nNXB: " + nxb
